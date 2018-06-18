@@ -1,0 +1,6 @@
+開啟Linebot後，會進入debug模式。
+先將管理者的userid設定為初始的userid。
+verify時，Line會先丟出一組json。
+進入 "user_id.txt"，將verify攫取到的userid改成 管理者的userid。
+進入 "main_2.py"，把push_message的id的位置，改成變數 "user_id"。
+管理者先發送一句話，就可開始使用。
